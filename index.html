@@ -1,89 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Juliano Pereira Cândido, desenvolvedor .NET. Conheça seus projetos e as tecnologias que utiliza para desenvolver sistemas e APIs.">
+    <title>Soma Soluções Digitais | Juliano Pereira Cândido | Desenvolvedor .NET</title>
 
-    <title>Juliano Pereira Cândido</title>
-   
-
-    <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,100;1,300;1,700&display=swap" rel="stylesheet">
-
-    <!--Dev Icon-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-
-    <!--Css do projeto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/devicon.min.css">
     <link rel="stylesheet" href="css/styles.css">
-          
-
-
 </head>
 <body>
-   <main id="container">
-     <aside id="bio-container">
-        <h2>Juliano Pereira Candido</h2>
-        <img id="bio-image" src="img/juliano.jpeg" alt="Juliano Pereira Candido">
-        <p>Olá,meu nome é Juliano Pereira e sou <span class="highlight"> desenvolvedor .Net</span>.</p>
-        <p id="welcome-text">Seja Bem Vindo</p>
-        <ul id="social-container">
-            <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-            
-           
-        </ul>
-        <div id="email-container">
-            <ion-icon name="mail-outline"></ion-icon>
-            <a href="mailto:julianosgs@yahoo.com.br">julianosgs@yahoo.com.br</a>
-            
-        </div>
-        <div id="zap">
-            <ion-icon name="logo-whatsapp"></ion-icon>
-            <a>35988981198</a>
-        </div>
+    <div class="layout">
+        <aside class="profile" aria-label="Perfil e contato">
+            <img class="profile-photo" src="img/juliano.jpeg" alt="Foto de Juliano Pereira Cândido" width="160" height="160">
 
-     </aside>
-     <section id="about-container">
-        <h1 id="name">Juliano Pereira</h1>
-        <p id="title"><span class="highlight">Desenvolvedor .Net</span></p>
-        <p class="description">Sou um desenvolvedor .Net para Sistemas em <span class="highlight">Desktop e Web</span></p>
-        <p class="description">Sistemas em AspNet MVC e Web Forms</p>
-        <a href="https://github.com/julianossgs" target="_blank" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
-        <h2 id="skills-section-title">Minhas Skills</h2>
-        <p class="description">Conheça as tecnologias que domino:</p>
-        <div id="skills-container">
-            <div class="skills-box">
-                <p class="skills-title">Front-end</p>
-                <i class="devicon-html5-plain colored"></i>
-                <i class="devicon-css3-plain colored"></i>
-                <i class="devicon-javascript-plain colored"></i>
-                <i class="devicon-bootstrap-plain colored"></i>
-          
-            </div>
-            <div class="skills-box">
-                <p class="skills-title">Back-end</p>
-                <i class="devicon-csharp-plain colored"></i>
-            </div>
-            <div class="skills-box">
-                <p class="skills-title">Databases</p>
-                <i class="devicon-microsoftsqlserver-plain colored"></i>
-                <i class="devicon-mysql-plain-wordmark colored"></i>
-          
-            </div>
-            <div class="skills-box">
-                <p class="skills-title">Tools</p>
-                <i class="devicon-visualstudio-plain colored"></i>
-                <i class="devicon-git-plain colored"></i>
-                <i class="devicon-github-original-wordmark colored"></i>
-          
-            </div>
+            <a class="brand" href="https://www.somasolucoesdigitais.com.br/">
+                <img src="img/logo-soma.png" alt="Soma Soluções Digitais" width="112" height="112">
+            </a>
 
-        </div>
-     </section>
-   </main>
-          
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <ul class="contacts">
+                <li><a href="mailto:julianosgs@yahoo.com.br">julianosgs@yahoo.com.br</a></li>
+                <li><a href="https://wa.me/5535988981198">WhatsApp · (35) 98898-1198</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <section class="intro" aria-labelledby="name">
+                <h1 id="name">Juliano Pereira Cândido</h1>
+                <p class="role">Desenvolvedor .NET</p>
+                <p>Desenvolvo sistemas desktop e web com C# e .NET. Trabalho com ASP.NET MVC, Web Forms e desenvolvimento de APIs com ASP.NET Core.</p>
+                <a class="projects-link" href="https://github.com/somasolucoesdigitais?tab=repositories">Ver projetos no GitHub</a>
+            </section>
+
+            <section class="skills" aria-labelledby="skills-title">
+                <h2 id="skills-title">Tecnologias e ferramentas</h2>
+
+                <div class="skills-grid">
+                    <section class="skill-group">
+                        <h3>Front-end</h3>
+                        <ul class="tech-list">
+                            <li><i class="devicon-html5-plain colored" aria-hidden="true"></i>HTML5</li>
+                            <li><i class="devicon-css3-plain colored" aria-hidden="true"></i>CSS3</li>
+                            <li><i class="devicon-javascript-plain colored" aria-hidden="true"></i>JavaScript</li>
+                            <li><i class="devicon-bootstrap-plain colored" aria-hidden="true"></i>Bootstrap</li>
+                            <li><i class="devicon-angular-plain colored" aria-hidden="true"></i>Angular</li>
+                        </ul>
+                    </section>
+
+                    <section class="skill-group">
+                        <h3>Back-end</h3>
+                        <ul class="tech-list">
+                            <li><i class="devicon-csharp-plain colored" aria-hidden="true"></i>C#</li>
+                            <li><i class="devicon-dotnetcore-plain colored" aria-hidden="true"></i>ASP.NET Core</li>
+                            <li>Desenvolvimento de APIs</li>
+                        </ul>
+                    </section>
+
+                    <section class="skill-group">
+                        <h3>Bancos de dados</h3>
+                        <ul class="tech-list">
+                            <li><i class="devicon-microsoftsqlserver-plain colored" aria-hidden="true"></i>SQL Server</li>
+                            <li><i class="devicon-mysql-plain colored" aria-hidden="true"></i>MySQL</li>
+                        </ul>
+                    </section>
+
+                    <section class="skill-group">
+                        <h3>Tools</h3>
+                        <ul class="tech-list">
+                            <li><i class="devicon-visualstudio-plain colored" aria-hidden="true"></i>Visual Studio</li>
+                            <li><i class="devicon-git-plain colored" aria-hidden="true"></i>Git</li>
+                            <li><i class="devicon-github-original" aria-hidden="true"></i>GitHub</li>
+                            <li><i class="devicon-postman-plain colored" aria-hidden="true"></i>Postman</li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
