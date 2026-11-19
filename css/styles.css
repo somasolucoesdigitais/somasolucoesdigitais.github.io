@@ -189,3 +189,44 @@ a:focus-visible {
     }
 }
 
+/* Sidebar e alinhamento no mobile */
+.layout {
+    grid-template-columns: minmax(320px, 1fr) minmax(0, 3fr);
+}
+
+.contacts {
+    max-width: 320px;
+}
+
+.contacts a[href^="mailto:"] {
+    font-size: 0.875rem;
+    white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+    .layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .profile {
+        padding-inline: 16px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .intro p {
+        margin-inline: auto;
+    }
+
+    .skill-group h3 {
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .tech-list {
+        justify-content: center;
+    }
+}
+
