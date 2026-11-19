@@ -170,7 +170,7 @@ a:focus-visible {
     line-height: 1;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1024px) {
     .layout {
         grid-template-columns: 1fr;
     }
@@ -203,7 +203,7 @@ a:focus-visible {
     white-space: nowrap;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1024px) {
     .layout {
         grid-template-columns: minmax(0, 1fr);
     }
